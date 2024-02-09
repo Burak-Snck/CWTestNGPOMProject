@@ -24,5 +24,8 @@ public class ContactListHomePage {
     @FindBy(id = "signup")
     public WebElement signup;
 
+    @FindBy(id = "error")
+    public WebElement errorMessage;
+
 
 }
